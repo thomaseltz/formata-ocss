@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: aquamarine; */
+    background-image: url(https://cdn.pixabay.com/photo/2022/08/15/05/23/sun-rays-7387131_1280.jpg);
+    background-color: brown;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    text-align: center;
+    /* animation: mudarcores 5s infinite; */
+}
+
+
+main{
+    /* border: red 3px solid; */
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+    background-color: #deb887a2;
+    border-radius: 15px;
+}
+
+p{
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: lighter;
+    font-style: italic;
+    /* font-stretch: extra-expanded; */
+    line-height: 30px;
+    letter-spacing: 1px;
+     /* word-spacing: 15px; */
+     text-align: left;
+     /* text-decoration: underline; */
+     /* text-transform: capitalize; */
+     text-indent: 100px;
+     text-shadow: 5px 5px 10px black;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(158, 10, 10);
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px black;
+}
+
+footer{
+    font-family: sans-serif;
+    text-shadow: 5px 5px 10px black;
+    text-align: center;
+}
+
+/* @keyframes mudarcores { */
+    10% {
+        background-color: aqua;
+    }
+    10% {
+        background-color: pink;
+    }
+    10% {
+        background-color: orange;
+    }
+
+}
+
